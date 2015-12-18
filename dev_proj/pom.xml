@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>libs-release-local</name>
+			<url>http://10.201.174.58:8082/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>libs-snapshot-local</name>
+			<url>http://10.201.174.58:8082/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
   <build>
     <finalName>dev_proj</finalName>
   </build>
